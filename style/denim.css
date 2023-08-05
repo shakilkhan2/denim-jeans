@@ -126,50 +126,66 @@
   transform: translateX(-50%);
   display: block;
 }
-.price{
-    background-image: url(/assets/images/pocket.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 60%;
-    height: 500px;
-    position: absolute;
-    margin-top: -250px;
-    left: 50%;
-    transform: translateX(-50%);
+.price {
+  background-image: url(/assets/images/pocket.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 60%;
+  height: 500px;
+  position: absolute;
+  margin-top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.reviews {
+  background-color: #fff;
+  position: relative;
+  width: 250px;
+  height: 220px;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: block;
+  margin-top: 350px;
+}
+.reviews h4 {
+  text-align: center;
+  margin-top: 50px;
+}
+.reviews h6 {
+  font-family: font1;
+  font-size: 20px;
+  color: #003b60;
+  text-align: center;
+}
+.reviews p {
+  margin-top: 8px;
+  font-family: font1;
+  font-size: 18px;
+  padding: 10px;
+  color: #003b60;
+}
+.reviews img {
+  position: absolute;
+  height: 80px;
+  height: 80px;
+  left: 85px;
+  top: -40px;
+}
 
-}
-.reviews{
-    background-color: #fff;
+.footer-bg {
+    background-image: linear-gradient(to bottom, rgba(0, 59, 96, 1) 0%, rgba(0, 0, 0, 0) 100%), url(/assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
     position: relative;
-    width: 250px;
-    height: 220px;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius:40px ;
-    display: block;
-    margin-top: 350px;
 }
-.reviews h4{
-text-align: center;
-margin-top: 50px;
-}
-.reviews h6{
-    font-family: font1;
-    font-size: 20px;
-    color: #003b60;
-    text-align: center;
-}
-.reviews p{
-    margin-top: 8px;
-    font-family: font1;
-    font-size: 18px;
-    padding: 10px;
-    color: #003b60;
-}
-.reviews img{
-    position: absolute;
-    height: 80px;
-    height: 80px;
-    left: 85px;
-    top: -40px;
+
+
+.footer-bg img {
+  position: absolute;
+  top: 0;
+  left: 0;
 }
