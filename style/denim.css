@@ -84,5 +84,30 @@ margin: 20px 0;
     height: 519px;
     position: absolute;
     bottom: 400px;
-    left: 266px;
+    left: 100px;
+}
+.jeans-bg{
+    background-color: #fff;
+    width: 257px;
+    height: 316px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+}
+.jeans-bg img{
+    width: 217.16px;
+    padding: 20px 20px;
+}
+.jeans-bg button{
+    background-color: #003B60;
+    padding: 15px 25px;
+    border: none;
+    color: #fff;
+    font-family: font1;
+    font-size: 18px;
+    width: 70%;
+    height: 60px;
+    margin: 0px auto;
+    display: block;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
 }
