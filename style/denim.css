@@ -1,113 +1,128 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 @font-face {
-    font-family: font1;
-    src: url(/assets/fonts/Ador\ Noirrit\ Web.otf);
-    font-weight: 400, 100;
+  font-family: font1;
+  src: url(/assets/fonts/Ador\ Noirrit\ Web.otf);
+  font-weight: 400, 100;
 }
 @font-face {
-    font-family: font2;
-    src: url(/assets/fonts/LiNiladriRongtuliUnicode-Regular.ttf);
+  font-family: font2;
+  src: url(/assets/fonts/LiNiladriRongtuliUnicode-Regular.ttf);
 }
 @font-face {
-    font-family: font3;
-    src: url(/assets/fonts/Li\ Sheikh\ Hasina\ 2\ Unicode.ttf);
+  font-family: font3;
+  src: url(/assets/fonts/Li\ Sheikh\ Hasina\ 2\ Unicode.ttf);
 }
 .cover-bg {
-    background-image: url(/assets/images/cover-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    width: 100%; 
-    height: 100vh; 
- }
- 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  background-image: url(/assets/images/cover-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
-.navbar a{
-    text-decoration: none;
-    color: #003B60;
-    font-family:font1 ;
-    font-weight: 400;
-    font-size: 20px;
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.navbar li{
-    list-style: none;
-   margin-left: 20px;
-  
+.navbar a {
+  text-decoration: none;
+  color: #003b60;
+  font-family: font1;
+  font-weight: 400;
+  font-size: 20px;
 }
-.heading h5{
-    background-color: #012A4A;
-    font-family: font1;
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #ffff;
-    width: 220px;
-    text-align: center;
-    padding: 15px 5px;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+.navbar li {
+  list-style: none;
+  margin-left: 20px;
 }
-.heading h1{
-font-family: font2;
-letter-spacing: 1px;
-font-size: 36px;
-color: #003B60;
-margin: 20px 0;
+.heading h5 {
+  background-color: #012a4a;
+  font-family: font1;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffff;
+  width: 220px;
+  text-align: center;
+  padding: 15px 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
-.order-button{
-    background-color: #F0E615;
-    justify-content: center;
-    padding: 10px 0;
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    width: 262px;
-    font-size: 24px;
-    cursor: pointer;
-    border: none;
+.heading h1 {
+  font-family: font2;
+  letter-spacing: 1px;
+  font-size: 36px;
+  color: #003b60;
+  margin: 20px 0;
 }
-.denim{
-    background-image: url(/assets/images/denim.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    width: 100%; 
-    height: 100vh; 
+.order-button {
+  background-color: #f0e615;
+  justify-content: center;
+  padding: 10px 0;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 262px;
+  font-size: 24px;
+  cursor: pointer;
+  border: none;
 }
-.round img{
-    width: 339px;
-    height: 519px;
-    position: absolute;
-    bottom: 400px;
-    left: 100px;
+.denim {
+  background-image: url(/assets/images/denim.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
-.jeans-bg{
-    background-color: #fff;
-    width: 257px;
-    height: 316px;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 70px;
+.round img {
+  width: 339px;
+  height: 519px;
+  position: absolute;
+  bottom: 400px;
+  left: 100px;
 }
-.jeans-bg img{
-    width: 217.16px;
-    padding: 20px 20px;
+.jeans-bg {
+  background-color: #fff;
+  width: 257px;
+  height: 316px;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
 }
-.jeans-bg button{
-    background-color: #003B60;
-    padding: 15px 25px;
-    border: none;
-    color: #fff;
-    font-family: font1;
-    font-size: 18px;
-    width: 70%;
-    height: 60px;
-    margin: 0px auto;
-    display: block;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+.jeans-bg img {
+  width: 217.16px;
+  padding: 20px 20px;
+}
+.jeans-bg button {
+  background-color: #003b60;
+  padding: 15px 25px;
+  border: none;
+  color: #fff;
+  font-family: font1;
+  font-size: 18px;
+  width: 70%;
+  height: 60px;
+  margin: 0px auto;
+  display: block;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+#products {
+  position: relative;
+}
+.jeans-roll {
+  background-image: url(/assets/images/jeans-roll1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 80%;
+  height: 700px;
+  position: absolute;
+  margin-top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
 }
