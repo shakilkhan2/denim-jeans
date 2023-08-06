@@ -5,19 +5,19 @@
 
 @font-face {
   font-family: font1;
-  src: url(./assets/fonts/Ador\ Noirrit\ Web.otf);
+  src: url(/assets/fonts/Ador\ Noirrit\ Web.otf);
   font-weight: 400, 100;
 }
 @font-face {
   font-family: font2;
-  src: url(./assets/fonts/LiNiladriRongtuliUnicode-Regular.ttf);
+  src: url(/assets/fonts/LiNiladriRongtuliUnicode-Regular.ttf);
 }
 @font-face {
   font-family: font3;
-  src: url(./assets/fonts/Li\ Sheikh\ Hasina\ 2\ Unicode.ttf);
+  src: url(/assets/fonts/Li\ Sheikh\ Hasina\ 2\ Unicode.ttf);
 }
 .cover-bg {
-  background-image: url(./assets/images/cover-bg.png);
+  background-image: url(/assets/images/cover-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -72,7 +72,7 @@
   border: none;
 }
 .denim {
-  background-image: url(./assets/images/denim.png);
+  background-image: url(/assets/images/denim.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -115,7 +115,7 @@
   position: relative;
 }
 .jeans-roll {
-  background-image: url(./assets/images/jeans-roll1.png);
+  background-image: url(/assets/images/jeans-roll1.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -128,7 +128,7 @@
   display: block;
 }
 .price {
-  background-image: url(./assets/images/pocket.png);
+  background-image: url(/assets/images/pocket.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -180,7 +180,7 @@
       rgba(0, 59, 96, 1) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url(./assets/images/footer-bg.png);
+    url(/assets/images/footer-bg.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -225,7 +225,7 @@
       rgba(0, 59, 96, 1) 0%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url(./assets/images/footer.png);
+    url(/assets/images/footer.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: center;
