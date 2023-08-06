@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
 @font-face {
   font-family: font1;
   src: url(/assets/fonts/Ador\ Noirrit\ Web.otf);
@@ -174,18 +175,48 @@
 }
 
 .footer-bg {
-    background-image: linear-gradient(to bottom, rgba(0, 59, 96, 1) 0%, rgba(0, 0, 0, 0) 100%), url(/assets/images/footer-bg.png);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    position: relative;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 59, 96, 1) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url(/assets/images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
-
 
 .footer-bg img {
   position: absolute;
   top: 0;
   left: 0;
 }
+
+.form input {
+  padding: 10px 200px 10px 8px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 20px;
+  outline: none;
+}
+
+.form input:focus {
+  outline: 2px solid #fff;
+}
+
+.form input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+#payment{
+ color: #fff;
+  
+}
+
+
+ 
